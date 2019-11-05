@@ -26,11 +26,11 @@ const ClientModel = (sequelize, Sequelize) => {
             allowNull: false
         },
         postalCode: {
-            type: STRING(3),
+            type: STRING,
             allowNull: false
         },
         countryIsoCode: {
-            type: STRING,
+            type: STRING(3),
         },
         createdAt: {
             type: DATE,

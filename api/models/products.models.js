@@ -4,40 +4,36 @@ const { uuidv4 } = require('uuid/v4');
 const ProductModel = (sequelize, Sequelize) => {
     const { INTEGER, STRING, DATE, BOOLEAN, FLOAT } = Sequelize;
     const Product = sequelize.define('Product', {
-        Id: {
+        id: {
             type: INTEGER,
             primaryKey: true,
             autoIncrement: true,
             unique: true
         },
-        Brand: {
+        brand: {
             type: STRING,
             allowNull: false
         },
-        Model: {
+        model: {
             type: STRING,
             allowNull: false
         },
-        Photo: {
+        photo: {
             type: STRING,
             allowNull: false
         },
-        UnitPrice: {
+        unitPrice: {
             type: FLOAT,
             allowNull: false
         },
-        IsAvailable: {
+        isAvailable: {
             type: BOOLEAN,
             allowNull: false
         },
-        CountryIsoCode: {
-            type: STRING,
+        stock: {
+            type: INTEGER,
         },
-        EmittedAt: {
-            type: DATE,
-            defaultValue: Sequelize.NOW
-        },
-        Uuid: {
+        uuid: {
             type: String,
             defaultValue: uuidv4()
         }
