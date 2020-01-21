@@ -36,15 +36,30 @@ public class DashboardView {
 
         dashboardToolBar.setFloatable(false);
 
+        // Add button
+        addButton.setEnabled(false);
+        addButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         addButton.setText("Add");
+        addButton.setToolTipText("Add");
+        addButton.setIcon(new ImageIcon(new ImageIcon("icons/add.png").getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
         dashboardToolBar.add(addButton);
         dashboardToolBar.addSeparator();
 
+        // Edit button
+        editButton.setEnabled(false);
+        editButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         editButton.setText("Edit");
+        editButton.setToolTipText("Edit");
+        editButton.setIcon(new ImageIcon(new ImageIcon("icons/edit.png").getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
         dashboardToolBar.add(editButton);
         dashboardToolBar.addSeparator();
 
+        // Delete button
+        deleteButton.setEnabled(false);
+        deleteButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         deleteButton.setText("Delete");
+        deleteButton.setToolTipText("Delete");
+        deleteButton.setIcon(new ImageIcon(new ImageIcon("icons/delete.png").getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH)));
         dashboardToolBar.add(deleteButton);
 
         Container contentPane = frame.getContentPane();
@@ -53,15 +68,12 @@ public class DashboardView {
         JScrollPane pane = new JScrollPane(textArea);
         contentPane.add(pane, BorderLayout.CENTER);
 
-        // placeComponents(dashBoardPanel);
-        frame.setVisible(true);
-
-        /*frame.add(dashBoardPanel);
-        placeComponents(dashBoardPanel);
         frame.setVisible(true);
 
         DashboardView.ActionHandler actionHandler = new DashboardView.ActionHandler();
-        btn.addActionListener(actionHandler);*/
+        addButton.addActionListener(actionHandler);
+        editButton.addActionListener(actionHandler);
+        deleteButton.addActionListener(actionHandler);
     }
 
     /**
@@ -72,55 +84,9 @@ public class DashboardView {
 
         panel.setLayout(null);
 
-        // Toolbar
-        // addButton.setEnabled(false);
-        addButton.setText("Add");
-
-        // editButton.setEnabled(false);
-        editButton.setText("Edit");
-
-        panel.add(dashboardToolBar);
-
-
         // Splitpane
         dashboardSplitPane.setContinuousLayout(true);
         dashboardSplitPane.setOneTouchExpandable(true);
-
-
-        // Username
-        /*username_label.setText("Username");
-        username_label.setBounds(10, 10, 80, 25);
-        panel.add(username_label);
-
-        username_field.setBounds(95, 10, 195, 25);
-        username_label.setLabelFor(username_field);
-        panel.add(username_field);
-
-        username_error_msg.setText("");
-        username_error_msg.setFont(new Font("Consolas", Font.ITALIC, 10));
-        username_error_msg.setForeground(Color.RED);
-        username_error_msg.setBounds(100, 40, 195, 15);
-        panel.add(username_error_msg);
-
-        // Password
-        password_label.setText("Password");
-        password_label.setBounds(10, 70, 80, 25);
-        panel.add(password_label);
-
-        password_field.setBounds(95, 70, 195, 25);
-        password_label.setLabelFor(password_field);
-        panel.add(password_field);
-
-        password_error_msg.setText("");
-        password_error_msg.setFont(new Font("Consolas", Font.ITALIC, 10));
-        password_error_msg.setForeground(Color.RED);
-        password_error_msg.setBounds(100, 100, 195, 15);
-        panel.add(password_error_msg);*/
-
-        // Login
-        // btn.setText("Dashboard");
-        // btn.setBounds(0, 0, 100, 25);
-        // panel.add(btn);
     }
 
     /**
@@ -130,6 +96,19 @@ public class DashboardView {
 
         @Override
         public void actionPerformed(ActionEvent e) {
+            JButton source = (JButton) e.getSource();
+
+            if (source == addButton) {
+                System.out.println("Add button pressed");
+            }
+
+            if (source == editButton) {
+                System.out.println("Edit button pressed");
+            }
+
+            if (source == deleteButton) {
+                System.out.println("Delete button pressed");
+            }
 
         }
     }
