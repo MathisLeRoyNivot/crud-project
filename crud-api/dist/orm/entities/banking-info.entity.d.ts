@@ -1,7 +1,6 @@
 export declare class BankingInfo {
-    id: number;
+    id: string;
     cardNumber: string;
     cryptogram: string;
     expirationDate: string;
-    uuid: string;
 }

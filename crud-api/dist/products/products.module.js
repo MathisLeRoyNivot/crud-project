@@ -7,20 +7,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const app_controller_1 = require("./app.controller");
-const app_service_1 = require("./app.service");
-const auth_module_1 = require("./auth/auth.module");
-const users_module_1 = require("./users/users.module");
-const orm_module_1 = require("./orm/orm.module");
-const products_module_1 = require("./products/products.module");
-let AppModule = class AppModule {
+const typeorm_1 = require("@nestjs/typeorm");
+const products_service_1 = require("./products.service");
+const product_entity_1 = require("./product.entity");
+let ProductsModule = class ProductsModule {
 };
-AppModule = __decorate([
+ProductsModule = __decorate([
     common_1.Module({
-        imports: [auth_module_1.AuthModule, users_module_1.UsersModule, orm_module_1.OrmModule, products_module_1.ProductsModule],
-        controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService],
+        imports: [typeorm_1.TypeOrmModule.forFeature([product_entity_1.Product])],
+        providers: [products_service_1.ProductsService],
+        exports: [products_service_1.ProductsService],
     })
-], AppModule);
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+], ProductsModule);
+exports.ProductsModule = ProductsModule;
+//# sourceMappingURL=products.module.js.map

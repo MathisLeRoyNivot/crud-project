@@ -1,10 +1,10 @@
 export declare class Product {
-    id: number;
+    id: string;
     brand: string;
     model: string;
     photo: string;
     unitPrice: number;
     isAvailable: boolean;
     stock: number;
-    uuid: string;
+    constructor(brand: string, model: string, photo: string, unitPrice: number, isAvailable: boolean, stock: number);
 }

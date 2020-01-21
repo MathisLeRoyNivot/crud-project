@@ -10,12 +10,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
-const uuid_1 = require("uuid");
 let Client = class Client {
 };
 __decorate([
-    typeorm_1.PrimaryGeneratedColumn(),
-    __metadata("design:type", Number)
+    typeorm_1.PrimaryGeneratedColumn('uuid'),
+    __metadata("design:type", String)
 ], Client.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column(),
@@ -48,14 +47,6 @@ __decorate([
     }),
     __metadata("design:type", Date)
 ], Client.prototype, "createdAt", void 0);
-__decorate([
-    typeorm_1.Column({
-        type: 'varchar',
-        length: 255,
-        default: uuid_1.uuidv4(),
-    }),
-    __metadata("design:type", String)
-], Client.prototype, "uuid", void 0);
 Client = __decorate([
     typeorm_1.Entity()
 ], Client);

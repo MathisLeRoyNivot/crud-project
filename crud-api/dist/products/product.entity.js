@@ -10,12 +10,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
-const uuid_1 = require("uuid");
 let Product = class Product {
+    constructor(brand, model, photo, unitPrice, isAvailable, stock) {
+        this.brand = brand;
+        this.model = model;
+        this.photo = photo;
+        this.unitPrice = unitPrice;
+        this.isAvailable = isAvailable;
+        this.stock = stock;
+    }
 };
 __decorate([
-    typeorm_1.PrimaryGeneratedColumn(),
-    __metadata("design:type", Number)
+    typeorm_1.PrimaryGeneratedColumn('uuid'),
+    __metadata("design:type", String)
 ], Product.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column(),
@@ -30,27 +37,20 @@ __decorate([
     __metadata("design:type", String)
 ], Product.prototype, "photo", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.Column({ name: 'unit_price' }),
     __metadata("design:type", Number)
 ], Product.prototype, "unitPrice", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.Column({ name: 'is_available' }),
     __metadata("design:type", Boolean)
 ], Product.prototype, "isAvailable", void 0);
 __decorate([
     typeorm_1.Column(),
     __metadata("design:type", Number)
 ], Product.prototype, "stock", void 0);
-__decorate([
-    typeorm_1.Column({
-        type: 'varchar',
-        length: 255,
-        default: uuid_1.uuidv4(),
-    }),
-    __metadata("design:type", String)
-], Product.prototype, "uuid", void 0);
 Product = __decorate([
-    typeorm_1.Entity()
+    typeorm_1.Entity({ name: 'products' }),
+    __metadata("design:paramtypes", [String, String, String, Number, Boolean, Number])
 ], Product);
 exports.Product = Product;
 //# sourceMappingURL=product.entity.js.map

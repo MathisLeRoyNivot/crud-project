@@ -16,13 +16,16 @@ const common_1 = require("@nestjs/common");
 const app_service_1 = require("./app.service");
 const passport_1 = require("@nestjs/passport");
 const auth_service_1 = require("./auth/auth.service");
+const products_service_1 = require("./products/products.service");
+const product_entity_1 = require("./products/product.entity");
 let AppController = class AppController {
-    constructor(appService, authService) {
+    constructor(appService, authService, productsService) {
         this.appService = appService;
         this.authService = authService;
+        this.productsService = productsService;
     }
     getHello() {
-        return this.appService.getHello();
+        return 'CRUD API';
     }
     async login(req) {
         return this.authService.login(req.user);
@@ -30,8 +33,9 @@ let AppController = class AppController {
     addClient(req) {
         return 'CLIENT ADDED';
     }
-    addProduct(req) {
-        return 'PRODUCT ADDED';
+    addProduct(brand, model, photo, unitPrice, isAvailable, stock) {
+        const product = new product_entity_1.Product(brand, model, photo, unitPrice, isAvailable, stock);
+        return this.productsService.addProduct(product);
     }
     addBill(req) {
         return 'BILL ADDED';
@@ -43,7 +47,7 @@ let AppController = class AppController {
         return 'CLIENT';
     }
     getProducts(req) {
-        return 'PRODUCTS';
+        return this.productsService.findProducts();
     }
     getProduct(req) {
         return 'PRODUCT';
@@ -104,9 +108,14 @@ __decorate([
 __decorate([
     common_1.UseGuards(passport_1.AuthGuard('jwt')),
     common_1.Post('products'),
-    __param(0, common_1.Request()),
+    __param(0, common_1.Body('brand')),
+    __param(1, common_1.Body('model')),
+    __param(2, common_1.Body('photo')),
+    __param(3, common_1.Body('unitPrice')),
+    __param(4, common_1.Body('isAvailable')),
+    __param(5, common_1.Body('stock')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [String, String, String, Number, Boolean, Number]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "addProduct", null);
 __decorate([
@@ -232,7 +241,8 @@ __decorate([
 AppController = __decorate([
     common_1.Controller(),
     __metadata("design:paramtypes", [app_service_1.AppService,
-        auth_service_1.AuthService])
+        auth_service_1.AuthService,
+        products_service_1.ProductsService])
 ], AppController);
 exports.AppController = AppController;
 //# sourceMappingURL=app.controller.js.map

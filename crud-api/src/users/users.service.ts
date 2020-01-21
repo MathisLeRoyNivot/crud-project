@@ -13,7 +13,7 @@ export class UsersService {
                 userId: 1,
                 username: 'jeanneige',
                 password: '$2b$10$X2mthg4XJsrY.HkZbYE/Y.H1i4yP0oTK2xyVZn7vW42LlzsvP1CHK',
-            }
+            },
         ];
     }
 

@@ -10,6 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
+const bill_entity_1 = require("./bill.entity");
+const product_entity_1 = require("../../products/product.entity");
 let BillProduct = class BillProduct {
 };
 __decorate([
@@ -17,11 +19,8 @@ __decorate([
     __metadata("design:type", Number)
 ], BillProduct.prototype, "id", void 0);
 __decorate([
-    typeorm_1.OneToOne(type => Client, clientId => clientId.id),
-    typeorm_1.Column(),
-    __metadata("design:type", Number)
-], BillProduct.prototype, "productId", void 0);
-__decorate([
+    typeorm_1.OneToOne(type => bill_entity_1.Bill, billId => billId.id),
+    typeorm_1.OneToOne(type => product_entity_1.Product, productId => productId.id),
     typeorm_1.Column(),
     __metadata("design:type", Number)
 ], BillProduct.prototype, "quantity", void 0);

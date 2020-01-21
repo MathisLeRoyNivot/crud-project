@@ -8,25 +8,29 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
+const typeorm_1 = require("@nestjs/typeorm");
 const common_1 = require("@nestjs/common");
-let UsersService = class UsersService {
-    constructor() {
-        this.users = [
-            {
-                userId: 1,
-                username: 'jeanneige',
-                password: '$2b$10$X2mthg4XJsrY.HkZbYE/Y.H1i4yP0oTK2xyVZn7vW42LlzsvP1CHK',
-            },
-        ];
+const typeorm_2 = require("typeorm");
+const product_entity_1 = require("./product.entity");
+let ProductsService = class ProductsService {
+    constructor(productRepository) {
+        this.productRepository = productRepository;
     }
-    async findOne(username) {
-        return this.users.find(user => user.username === username);
+    findProducts() {
+        return this.productRepository.find();
+    }
+    addProduct(product) {
+        return this.productRepository.save(product);
     }
 };
-UsersService = __decorate([
+ProductsService = __decorate([
     common_1.Injectable(),
-    __metadata("design:paramtypes", [])
-], UsersService);
-exports.UsersService = UsersService;
-//# sourceMappingURL=users.service.js.map
+    __param(0, typeorm_1.InjectRepository(product_entity_1.Product)),
+    __metadata("design:paramtypes", [typeorm_2.Repository])
+], ProductsService);
+exports.ProductsService = ProductsService;
+//# sourceMappingURL=products.service.js.map

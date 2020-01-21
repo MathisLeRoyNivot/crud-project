@@ -1,13 +1,12 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany, ManyToOne } from 'typeorm';
 import { Client } from './client.entity';
-import { uuidv4 } from 'uuid';
 
 @Entity()
 export class Bill {
 
     // ID
-    @PrimaryGeneratedColumn()
-    id: number;
+    @PrimaryGeneratedColumn('uuid')
+    id: string;
 
     // Client ID
     @ManyToOne(type => Client, clientId => clientId.id)
@@ -39,13 +38,4 @@ export class Bill {
         default: Date.now(),
     })
     emittedAt: Date;
-
-    // UUID
-    @Column({
-        type: 'varchar',
-        length: 255,
-        default: uuidv4(),
-    })
-    uuid: string;
-
 }

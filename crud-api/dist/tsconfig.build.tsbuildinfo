@@ -1146,7 +1146,7 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.service.ts": {
-        "version": "b3d74a068d8b476342413ed9602b8a6bb1c211d32b882b75335102cebb13a1ba",
+        "version": "3c8b500f244a47a408acd4230bf755ce54d5f52d99fdc021f52701ca7abde2f6",
         "signature": "84628b8f74a26fbc26e861aadb045a27f5fbeba435c6769792edc4c608d59735"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -1184,74 +1184,6 @@
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts": {
         "version": "0e1315854d78b86952635a1d5f0a2dcf7c98f1827d3e73eb46b501fcd5c3f3d2",
         "signature": "2de78b435b3139bb7433ee876fb266d281e2155d12072507bc74f2f2b614a4e7"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts": {
-        "version": "a3c650dac5d872a6bdfea9f452bfee516cba989e81158008e320afc2270decec",
-        "signature": "6a2fee1017555148b5446f71456ae02591cea45c1ab760a5f7317f7408041277"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts": {
-        "version": "da805b45dfe4b5683e6cb928f5986b49c867cfd86ab0873ca83a636c427b2d02",
-        "signature": "aa1725e38b5a0b4009f6a74f296f173e7926c119a60454dbd2e523861735df69"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts": {
-        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
-        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts": {
-        "version": "79f5491e53054886824c5cfee16f4d9682d78e2ec6d13ef4eae6ec2f82fe0cec",
-        "signature": "79f5491e53054886824c5cfee16f4d9682d78e2ec6d13ef4eae6ec2f82fe0cec"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts": {
-        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
-        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts": {
-        "version": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0",
-        "signature": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts": {
-        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
-        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts": {
-        "version": "599abfa56230d73afc30a3bde749c2efd90acb58301b446835d5e235b35e2768",
-        "signature": "599abfa56230d73afc30a3bde749c2efd90acb58301b446835d5e235b35e2768"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts": {
-        "version": "6e1c6fe784daeba017901db7766e6b872f535defe33b0e0196d2a12c26f50517",
-        "signature": "6e1c6fe784daeba017901db7766e6b872f535defe33b0e0196d2a12c26f50517"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts": {
-        "version": "31a5aab6f219b912bea2a80de1a1232272314eff56177416fb31ba95bb9c64e6",
-        "signature": "31a5aab6f219b912bea2a80de1a1232272314eff56177416fb31ba95bb9c64e6"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts": {
-        "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
-        "signature": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts": {
-        "version": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
-        "signature": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts": {
-        "version": "fad44d50e6cbcf086144b5d5692531f658f9366ce237da8aa3e1c1504c52243c",
-        "signature": "36f74618e7fcfcb1f9917ccf8af921ac0625d3dd7b7bc8735e6e955dd7d6c267"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts": {
-        "version": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38",
-        "signature": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts": {
-        "version": "16d58412ab54eef7649dd58e830265fe81305ecba0a9ad8cfc04f16c7ef2bc55",
-        "signature": "a9a6d1ac7d8e1b27ed750995232ec31127a73624abfe24dcf9111d466d1dff17"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts": {
-        "version": "43c553c9402dea20bc3a68d5a83b04affecc21cf6eef95fe73b66458d55141ce",
-        "signature": "9dd51a0c727ab479695beae90e12b0915998846aaf6586a33b8092b57220947a"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts": {
-        "version": "232ec008f984337e6beccd5e7f60bddba6084e761db0944b37776ac1b6638485",
-        "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": {
         "version": "222ebf19b1260582fd2023a65c5b7da77f730021f05afb9c4ead4b0b339a8c98",
@@ -2265,12 +2197,92 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts": {
+        "version": "54d6a02a4ea3b68ba22bf4eacb9a608fea44cb589e7ea2186897154acc06269c",
+        "signature": "be062fa7324c7def0343f381279937f192ea6c19b0759386473976aa0bffb19f"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts": {
+        "version": "90856f738c9553e11d7ff04bca88f7b81576f647fbb4bdbcdd6b51e5a9b8e4a6",
+        "signature": "16dde8f2338380b6be46f8cdbf86f30715c74c819c132c6418a01dd631a3edc5"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts": {
+        "version": "8b9819bb894329833a7fb57d1fe9cd3eabefd32b8047202de4449ac815e93935",
+        "signature": "1ffd73e0ccefa1cb6b3524a7f6d3bad40b27bd3c276ecc88a422ee1d0aee40dc"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts": {
+        "version": "da805b45dfe4b5683e6cb928f5986b49c867cfd86ab0873ca83a636c427b2d02",
+        "signature": "aa1725e38b5a0b4009f6a74f296f173e7926c119a60454dbd2e523861735df69"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "79f5491e53054886824c5cfee16f4d9682d78e2ec6d13ef4eae6ec2f82fe0cec",
+        "signature": "79f5491e53054886824c5cfee16f4d9682d78e2ec6d13ef4eae6ec2f82fe0cec"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts": {
+        "version": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0",
+        "signature": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts": {
+        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
+        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts": {
+        "version": "599abfa56230d73afc30a3bde749c2efd90acb58301b446835d5e235b35e2768",
+        "signature": "599abfa56230d73afc30a3bde749c2efd90acb58301b446835d5e235b35e2768"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts": {
+        "version": "6e1c6fe784daeba017901db7766e6b872f535defe33b0e0196d2a12c26f50517",
+        "signature": "6e1c6fe784daeba017901db7766e6b872f535defe33b0e0196d2a12c26f50517"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts": {
+        "version": "31a5aab6f219b912bea2a80de1a1232272314eff56177416fb31ba95bb9c64e6",
+        "signature": "31a5aab6f219b912bea2a80de1a1232272314eff56177416fb31ba95bb9c64e6"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts": {
+        "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
+        "signature": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts": {
+        "version": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
+        "signature": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts": {
+        "version": "fad44d50e6cbcf086144b5d5692531f658f9366ce237da8aa3e1c1504c52243c",
+        "signature": "36f74618e7fcfcb1f9917ccf8af921ac0625d3dd7b7bc8735e6e955dd7d6c267"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts": {
+        "version": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38",
+        "signature": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts": {
+        "version": "16d58412ab54eef7649dd58e830265fe81305ecba0a9ad8cfc04f16c7ef2bc55",
+        "signature": "a9a6d1ac7d8e1b27ed750995232ec31127a73624abfe24dcf9111d466d1dff17"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts": {
+        "version": "43c553c9402dea20bc3a68d5a83b04affecc21cf6eef95fe73b66458d55141ce",
+        "signature": "9dd51a0c727ab479695beae90e12b0915998846aaf6586a33b8092b57220947a"
+      },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts": {
+        "version": "232ec008f984337e6beccd5e7f60bddba6084e761db0944b37776ac1b6638485",
+        "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
+      },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/orm.module.ts": {
         "version": "5aa5691e601b84b3f889617865e3dbb0e0249fc2667bb76396561aab7663c3b5",
         "signature": "2374f037d9da79fa176dad398f63e3599314a85e71c48b344e33c8d3cefc7b5d"
       },
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.module.ts": {
+        "version": "a8ce197a657b4a144f4b2c079621b005830fe13b816ff9010bf05eff9c32cc30",
+        "signature": "8857a2a959eb0ee870d0adb812e0d41a0e12796ec0c1d85f8416e82bcf51ca03"
+      },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.module.ts": {
-        "version": "92988fe0b84dae7da3bc34efec29119f4e29b1b3ec8d16382776cc9b9e265381",
+        "version": "676b46a2ef11f4e6e594ece37c7646d71ed7fdc4ff0e43d40ac86899563897ac",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -2394,24 +2406,20 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/client.entity.ts": {
-        "version": "32bd1ac1427e7b1100fe282cd0e8cb5e5ebb989b0046ca283e49d85820688177",
-        "signature": "deeca9dc527712128b536ca2d26394e12de0a6eaea0bd460c469125e471386e4"
+        "version": "5fdb3920c1b0b153198eed13100211d7e2e36eb1b1a0cc3e067475bc72ea0032",
+        "signature": "052f25dee241748aaaf2c3cc06e2a4e007bb2f65e00b7e6b9467b29ea32637bc"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/banking-info.entity.ts": {
-        "version": "6b536ab78e269167ddb9b1d98167ac9ab88b2b40b93daf85464b1fd3eb4f1c04",
-        "signature": "867e9cafba0b98c9e16d79f48abb5bbb10b70df3155c506dfa6ad026769163a1"
-      },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts": {
-        "version": "4f29fb1e685d76e1e629c504e67361649a93e5d472444801fbcc245fbe9998d6",
-        "signature": "c30e846d73444bd1c71903b72959c8de9aa517a77c0058b7d96067e93669e509"
+        "version": "d7c84b85cf88bb204452b2ab8e043a4b6e0daf6b00ae19a5fedfdd929af7fde2",
+        "signature": "30b42b4e3aa3b8360713803a7cbe2a2ae3045b02e3f993392e755efba6cf6b46"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill.entity.ts": {
-        "version": "a54eba4547daa551613a5b9cac3601de2798bb78f4a396d7a05c836130815327",
-        "signature": "6d751cee4e1e06a3eff29d63f2ab249673742a1fb7dfcef0551efc22435f1ec8"
+        "version": "07898796122caf431c9c8765ff2def63bc5d7d845f97a33e82a5b96ff20c1637",
+        "signature": "c09688a73651bb71786422314cd527fa6b38fc20d17135406785c1ff7be7f00b"
       },
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/product.entity.ts": {
-        "version": "11f7c725705fde8c9d74ca95a95a3c1ae7ecc671eccda87f10fd533d1aeaf206",
-        "signature": "e5bffd15b786b07e5d6d3f15170e20d740444275c7dcbc2445966a0e9f9cd71a"
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts": {
+        "version": "03f6c95a51c0aa18a5b506b61b32e1f44438dcac3d03143d07e155ac973b50e6",
+        "signature": "577326f715db8d93b18fb4ab5f44a0759bd37bbb9d42709b01d6bda8a93d093a"
       },
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
@@ -4884,153 +4892,6 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/events.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/jsonwebtoken/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/jwt/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": [
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
@@ -7268,10 +7129,186 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/events.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/jsonwebtoken/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/jwt/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/orm.module.ts": [
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/typeorm/index.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.module.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/common/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
@@ -7284,6 +7321,7 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/orm.module.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.module.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
@@ -7573,13 +7611,6 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill.entity.ts": [
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/client.entity.ts",
@@ -7588,8 +7619,10 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/product.entity.ts": [
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts": [
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill.entity.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
@@ -10130,106 +10163,6 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.service.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/jwt/index.d.ts"
       ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/events.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/jsonwebtoken/index.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts": [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts"
-      ],
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": [
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
@@ -12467,6 +12400,112 @@
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/events.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/http.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/jsonwebtoken/index.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/util.d.ts",
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts": [
+        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts"
+      ],
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/orm.module.ts": [
         "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/index.d.ts"
       ],
@@ -13250,23 +13289,6 @@
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/jwt/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/bcrypt/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.service.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/schema-builder/table/TableColumn.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/typeorm/common/ObjectLiteral.d.ts",
@@ -13520,8 +13542,26 @@
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/typeorm/dist/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/typeorm/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/product.entity.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.service.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/users/users.module.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/range-parser/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express-serve-static-core/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/mime/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/serve-static/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/connect/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/body-parser/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/express/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-strategy/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-local/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/local.strategy.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/passport-jwt/index.d.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/constants.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/jwt.strategy.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/auth/auth.module.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/orm.module.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.module.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/products/products.module.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/core/adapters/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@nestjs/core/constants.d.ts",
@@ -13555,7 +13595,7 @@
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/client.entity.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/banking-info.entity.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill.entity.ts",
-      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/product.entity.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/anymatch/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@babel/types/lib/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/babel__generator/index.d.ts",
@@ -13587,27 +13627,8 @@
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/webpack/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/yargs-parser/index.d.ts",
       "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/node_modules/@types/yargs/index.d.ts",
-      [
-        "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts",
-        [
-          {
-            "file": "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts",
-            "start": 209,
-            "length": 6,
-            "messageText": "Cannot find name 'Client'.",
-            "category": 1,
-            "code": 2304
-          },
-          {
-            "file": "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/orm/entities/bill-product.entity.ts",
-            "start": 238,
-            "length": 2,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'id' does not exist on type '{}'."
-          }
-        ]
-      ]
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.controller.ts",
+      "/home/adrien/Documents/Projects/CRUD/crud-project/crud-api/src/app.module.ts"
     ]
   },
   "version": "3.4.5"

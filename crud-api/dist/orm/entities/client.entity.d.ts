@@ -1,5 +1,5 @@
 export declare class Client {
-    id: number;
+    id: string;
     firstname: string;
     lastname: string;
     email: string;
@@ -7,5 +7,4 @@ export declare class Client {
     postalCode: string;
     countryIsoCode: string;
     createdAt: Date;
-    uuid: string;
 }

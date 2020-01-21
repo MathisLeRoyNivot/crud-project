@@ -1,9 +1,8 @@
 export declare class Bill {
-    id: number;
+    id: string;
     totalPrice: number;
     isPaid: boolean;
     paidAt: Date;
     address: string;
     emittedAt: Date;
-    uuid: string;
 }

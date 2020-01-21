@@ -1,5 +1,5 @@
 CREATE TABLE `clients` (
-  `id` int PRIMARY KEY,
+  `id` varchar(255) PRIMARY KEY,
   `lastname` varchar(255),
   `firstname` varchar(255),
   `email_address` varchar(255),
@@ -9,9 +9,9 @@ CREATE TABLE `clients` (
   `created_at` datetime NOT NULL DEFAULT (now())
 );
 
-CREATE TABLE `banking_information` (
-  `id` int PRIMARY KEY,
-  `client_id` int,
+CREATE TABLE `banking_informations` (
+  `id` varchar(255) PRIMARY KEY,
+  `client_id` varchar(255),
   `card_number` varchar(255),
   `cryptogram` varchar(255),
   `expires_at` varchar(255),
@@ -19,17 +19,17 @@ CREATE TABLE `banking_information` (
 );
 
 CREATE TABLE `bills` (
-  `id` int PRIMARY KEY,
+  `id` varchar(255) PRIMARY KEY,
   `total_price` int,
   `is_paid` boolean DEFAULT 0,
   `paid_at` datetime,
-  `client_id` int,
-  `emitted_at` datatime NOT NULL DEFAULT (now()),
+  `client_id` varchar(255),
+  `emitted_at` datetime NOT NULL DEFAULT (now()),
   FOREIGN KEY (client_id) REFERENCES clients(id)
 );
 
 CREATE TABLE `products` (
-  `id` int PRIMARY KEY,
+  `id` varchar(255) PRIMARY KEY,
   `brand` varchar(255),
   `model` varchar(255),
   `photo` varchar(255),
@@ -39,8 +39,8 @@ CREATE TABLE `products` (
 );
 
 CREATE TABLE `bills_products` (
-  `bill_id` int,
-  `product_id` int,
+  `bill_id` varchar(255),
+  `product_id` varchar(255),
   `quantity` int,
   FOREIGN KEY (bill_id) REFERENCES bills(id),
   FOREIGN KEY (product_id) REFERENCES products(id)
