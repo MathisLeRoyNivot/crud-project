@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
 
 /**
  *
@@ -21,12 +22,14 @@ public class LoginView {
     private static JLabel password_error_msg = new JLabel();
     private static JButton login_btn = new JButton();
 
+    private static JFrame frame;
+
     /**
      *
      * @param args
      */
     public static void main(String[] args) {
-        JFrame frame = new JFrame(AppInfo.APP_LOGIN_NAME);
+        frame = new JFrame(AppInfo.APP_LOGIN_NAME);
         frame.setSize(300, 180);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -103,7 +106,16 @@ public class LoginView {
                 } else {
                     username_error_msg.setText(null);
                     password_error_msg.setText(null);
-                    JOptionPane.showMessageDialog(null, String.format("Username : %s | Password : %s", username, password));
+                    String title = "Show Frame";
+                    String message = String.format("Username : %s | Password : %s", username, password);
+                    int optionType = JOptionPane.OK_CANCEL_OPTION;
+                    int result = JOptionPane.showConfirmDialog(null, message, title, optionType);
+                    if (result == JOptionPane.OK_OPTION) {
+                        DashboardView dashboardView = new DashboardView();
+                        // dashboardView.setVisible(true);
+                    } else if (result  == JOptionPane.CANCEL_OPTION) {
+                        frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
+                    }
                 }
             }
         }
