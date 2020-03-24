@@ -9,7 +9,7 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
         super();
     }
 
-    // Check if credentials exists and return the user
+    //Check if credentials exists and return the user
     async validate(username: string, password: string): Promise<any> {
         const user = await this.authService.checkUser(username, password);
         if (!user) {

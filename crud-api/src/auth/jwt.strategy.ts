@@ -10,11 +10,12 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
             jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
             ignoreExpiration: false,
             secretOrKey: jwtConstants.secret,
+            algorithms: ['RS256'],
         });
     }
 
-    // Passport handle the JWT verification and return payload it ONLY if it's a valid token.
+    //Passport handle the JWT verification and return payload it ONLY if it's a valid token.
     async validate(payload: any) {
-        return { userId: payload.sub, username: payload.username };
+        return { userId: payload.sub, username: payload.username, roles: payload.roles };
     }
 }

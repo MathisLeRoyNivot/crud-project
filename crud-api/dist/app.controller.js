@@ -16,26 +16,24 @@ const common_1 = require("@nestjs/common");
 const app_service_1 = require("./app.service");
 const passport_1 = require("@nestjs/passport");
 const auth_service_1 = require("./auth/auth.service");
-const products_service_1 = require("./products/products.service");
-const product_entity_1 = require("./products/product.entity");
+const user_service_1 = require("./user/user.service");
 let AppController = class AppController {
-    constructor(appService, authService, productsService) {
+    constructor(appService, authService, userService) {
         this.appService = appService;
         this.authService = authService;
-        this.productsService = productsService;
+        this.userService = userService;
     }
     getHello() {
-        return 'CRUD API';
+        return this.appService.getHello();
     }
-    async login(req) {
-        return this.authService.login(req.user);
+    getUsers() {
+        return this.userService.findAll();
+    }
+    login(req) {
+        return this.authService.login(req.user, true);
     }
     addClient(req) {
         return 'CLIENT ADDED';
-    }
-    addProduct(brand, model, photo, unitPrice, isAvailable, stock) {
-        const product = new product_entity_1.Product(brand, model, photo, unitPrice, isAvailable, stock);
-        return this.productsService.addProduct(product);
     }
     addBill(req) {
         return 'BILL ADDED';
@@ -45,9 +43,6 @@ let AppController = class AppController {
     }
     getClient(req) {
         return 'CLIENT';
-    }
-    getProducts(req) {
-        return this.productsService.findProducts();
     }
     getProduct(req) {
         return 'PRODUCT';
@@ -90,12 +85,18 @@ __decorate([
     __metadata("design:returntype", String)
 ], AppController.prototype, "getHello", null);
 __decorate([
+    common_1.Get('users'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "getUsers", null);
+__decorate([
     common_1.UseGuards(passport_1.AuthGuard('local')),
     common_1.Post('auth/login'),
     __param(0, common_1.Request()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
+    __metadata("design:returntype", void 0)
 ], AppController.prototype, "login", null);
 __decorate([
     common_1.UseGuards(passport_1.AuthGuard('jwt')),
@@ -105,19 +106,6 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "addClient", null);
-__decorate([
-    common_1.UseGuards(passport_1.AuthGuard('jwt')),
-    common_1.Post('products'),
-    __param(0, common_1.Body('brand')),
-    __param(1, common_1.Body('model')),
-    __param(2, common_1.Body('photo')),
-    __param(3, common_1.Body('unitPrice')),
-    __param(4, common_1.Body('isAvailable')),
-    __param(5, common_1.Body('stock')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String, String, Number, Boolean, Number]),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "addProduct", null);
 __decorate([
     common_1.UseGuards(passport_1.AuthGuard('jwt')),
     common_1.Post('bills'),
@@ -142,14 +130,6 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "getClient", null);
-__decorate([
-    common_1.UseGuards(passport_1.AuthGuard('jwt')),
-    common_1.Get('products'),
-    __param(0, common_1.Request()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "getProducts", null);
 __decorate([
     common_1.UseGuards(passport_1.AuthGuard('jwt')),
     common_1.Get('products/:id'),
@@ -242,7 +222,7 @@ AppController = __decorate([
     common_1.Controller(),
     __metadata("design:paramtypes", [app_service_1.AppService,
         auth_service_1.AuthService,
-        products_service_1.ProductsService])
+        user_service_1.UserService])
 ], AppController);
 exports.AppController = AppController;
 //# sourceMappingURL=app.controller.js.map

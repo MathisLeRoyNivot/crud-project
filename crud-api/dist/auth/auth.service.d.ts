@@ -1,11 +1,15 @@
-import { UsersService } from '../users/users.service';
+import { UserService } from '../user/user.service';
 import { JwtService } from '@nestjs/jwt';
 export declare class AuthService {
-    private readonly usersService;
+    private readonly userService;
     private readonly jwtService;
-    constructor(usersService: UsersService, jwtService: JwtService);
+    constructor(userService: UserService, jwtService: JwtService);
     checkUser(username: string, pass: string): Promise<any>;
-    login(user: any): Promise<{
+    login(user: any, checkAdmin?: boolean): Promise<{
         access_token: string;
+        error?: undefined;
+    } | {
+        error: string;
+        access_token?: undefined;
     }>;
 }

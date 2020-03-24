@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "crud-api",
+    "crud-api": "crud-api-c914d"
+  }
+}

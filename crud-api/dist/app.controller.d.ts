@@ -1,22 +1,24 @@
 import { AppService } from './app.service';
 import { AuthService } from './auth/auth.service';
-import { ProductsService } from './products/products.service';
-import { Product } from './products/product.entity';
+import { UserService } from './user/user.service';
 export declare class AppController {
     private readonly appService;
     private readonly authService;
-    private readonly productsService;
-    constructor(appService: AppService, authService: AuthService, productsService: ProductsService);
+    private readonly userService;
+    constructor(appService: AppService, authService: AuthService, userService: UserService);
     getHello(): string;
+    getUsers(): string;
     login(req: any): Promise<{
         access_token: string;
+        error?: undefined;
+    } | {
+        error: string;
+        access_token?: undefined;
     }>;
     addClient(req: any): string;
-    addProduct(brand: string, model: string, photo: string, unitPrice: number, isAvailable: boolean, stock: number): Promise<Product>;
     addBill(req: any): string;
     getClients(req: any): string;
     getClient(req: any): string;
-    getProducts(req: any): Promise<Product[]>;
     getProduct(req: any): string;
     getBills(req: any): string;
     getBill(req: any): string;

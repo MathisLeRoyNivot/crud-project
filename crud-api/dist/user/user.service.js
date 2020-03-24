@@ -10,23 +10,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-let UsersService = class UsersService {
-    constructor() {
-        this.users = [
-            {
-                userId: 1,
-                username: 'jeanneige',
-                password: '$2b$10$X2mthg4XJsrY.HkZbYE/Y.H1i4yP0oTK2xyVZn7vW42LlzsvP1CHK',
-            },
-        ];
+const db_service_1 = require("../db/db.service");
+let UserService = class UserService {
+    constructor(dbService) {
+        this.dbService = dbService;
     }
-    async findOne(username) {
-        return this.users.find(user => user.username === username);
+    addUser(username, password, roles) {
+        return "User added";
+    }
+    findOneById(id) {
+        return this.dbService.getUserById(id);
+    }
+    findOneByName(username) {
+        return this.dbService.getUserByName(username);
+    }
+    findAll() {
+        return "All Users";
     }
 };
-UsersService = __decorate([
+UserService = __decorate([
     common_1.Injectable(),
-    __metadata("design:paramtypes", [])
-], UsersService);
-exports.UsersService = UsersService;
-//# sourceMappingURL=users.service.js.map
+    __metadata("design:paramtypes", [db_service_1.DbService])
+], UserService);
+exports.UserService = UserService;
+//# sourceMappingURL=user.service.js.map

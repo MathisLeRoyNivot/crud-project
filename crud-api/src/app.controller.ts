@@ -2,7 +2,8 @@ import { Controller, Get, UseGuards, Post, Request, Put, Delete, Body } from '@n
 import { AppService } from './app.service';
 import { AuthGuard } from '@nestjs/passport';
 import { AuthService } from './auth/auth.service';
-import { ProductsService } from './products/products.service';
+import { UserService } from './user/user.service';
+// import { ProductsService } from './products/products.service';
 import { Product } from './products/product.entity';
 
 @Controller()
@@ -10,25 +11,34 @@ export class AppController {
     constructor(
         private readonly appService: AppService,
         private readonly authService: AuthService,
-        private readonly productsService: ProductsService,
+        private readonly userService: UserService,
+        // private readonly productsService: ProductsService,
     ) { }
 
     // Default Route
     @Get()
     getHello(): string {
-        return 'CRUD API';
+        return this.appService.getHello();
     }
 
-    // ************//
-    // ****AUTH****//
-    // ************//
+    @Get('users')
+    getUsers() {
+        return this.userService.findAll();
+    }
 
     // Route to check login and get JWT
     @UseGuards(AuthGuard('local')) // Check if credentials match
     @Post('auth/login')
-    async login(@Request() req) {
-        return this.authService.login(req.user); // Return JWT
+    login(@Request() req) {
+        return this.authService.login(req.user, true); // Return JWT
     }
+
+    // Route only accessible via JWT
+    // @UseGuards(AuthGuard('jwt')) // Verify signature and decode JWT
+    // @Get('profile')
+    // getProfile(@Request() req) {
+    //     return req.user; // Get User infos
+    // }
 
     // *************//
     // *****POST****//
@@ -40,19 +50,19 @@ export class AppController {
         return 'CLIENT ADDED'; // Add Client
     }
 
-    @UseGuards(AuthGuard('jwt'))
-    @Post('products')
-    addProduct(
-        @Body('brand') brand: string,
-        @Body('model') model: string,
-        @Body('photo') photo: string,
-        @Body('unitPrice') unitPrice: number,
-        @Body('isAvailable') isAvailable: boolean,
-        @Body('stock') stock: number,
-    ) {
-        const product = new Product(brand, model, photo, unitPrice, isAvailable, stock);
-        return this.productsService.addProduct(product); // Add Product
-    }
+    // @UseGuards(AuthGuard('jwt'))
+    // @Post('products')
+    // addProduct(
+    //     @Body('brand') brand: string,
+    //     @Body('model') model: string,
+    //     @Body('photo') photo: string,
+    //     @Body('unitPrice') unitPrice: number,
+    //     @Body('isAvailable') isAvailable: boolean,
+    //     @Body('stock') stock: number,
+    // ) {
+    //     const product = new Product(brand, model, photo, unitPrice, isAvailable, stock);
+    //     return this.productsService.addProduct(product); // Add Product
+    // }
 
     @UseGuards(AuthGuard('jwt'))
     @Post('bills')
@@ -76,11 +86,11 @@ export class AppController {
         return 'CLIENT'; // Get Client infos
     }
 
-    @UseGuards(AuthGuard('jwt'))
-    @Get('products')
-    getProducts(@Request() req) {
-        return this.productsService.findProducts(); // Get Products infos
-    }
+    // @UseGuards(AuthGuard('jwt'))
+    // @Get('products')
+    // getProducts(@Request() req) {
+    //     return this.productsService.findProducts(); // Get Products infos
+    // }
 
     @UseGuards(AuthGuard('jwt'))
     @Get('products/:id')
