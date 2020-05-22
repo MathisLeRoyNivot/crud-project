@@ -6,17 +6,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
-let AppModule = class AppModule {
-};
-AppModule = __decorate([
-    common_1.Module({
-        imports: [],
-        controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService],
-    })
-], AppModule);
+const product_module_1 = require("./product/product.module");
+const client_module_1 = require("./client/client.module");
+const bill_module_1 = require("./bill/bill.module");
+const banking_information_module_1 = require("./banking-information/banking-information.module");
+const typeorm_1 = require("@nestjs/typeorm");
+let AppModule = (() => {
+    let AppModule = class AppModule {
+    };
+    AppModule = __decorate([
+        common_1.Module({
+            imports: [typeorm_1.TypeOrmModule.forRoot(), product_module_1.ProductModule, client_module_1.ClientModule, bill_module_1.BillModule, banking_information_module_1.BankingInformationModule],
+            controllers: [app_controller_1.AppController],
+            providers: [app_service_1.AppService],
+        })
+    ], AppModule);
+    return AppModule;
+})();
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map
