@@ -8,9 +8,9 @@ export class Bill {
     @PrimaryGeneratedColumn()
     id: number;
 
-    // @Column({name: 'product_id'})
-    @ManyToOne(type => Product, product => product.id)
-    productId: Product;
+    @Column({name: 'product_id'})
+    // @ManyToOne(type => Product, product => product.id)
+    productId: number;
 
     @Column()
     quantity: number;
@@ -24,9 +24,9 @@ export class Bill {
     @Column({name: 'paid_at', default: Date.now()})
     paidAt: string;
 
-    // @Column({name: 'client_id'})
-    @ManyToOne(type => Client, client => client.id)
-    clientId: Client;
+    @Column({name: 'client_id'})
+    // @ManyToOne(type => Client, client => client.id)
+    clientId: number;
 
     @Column({name: 'emmitted_at', default: Date.now()})
     emmittedAt: string;
