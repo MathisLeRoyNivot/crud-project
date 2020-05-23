@@ -1,4 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import { Client } from '../client/client';
 
 @Entity()
 export class BankingInformation {
@@ -7,6 +8,7 @@ export class BankingInformation {
     id: number;
 
     @Column({name: 'client_id'})
+    @OneToMany(type => Client, client => client.id)
     clientId: number;
 
     @Column({name: 'card_number'})
