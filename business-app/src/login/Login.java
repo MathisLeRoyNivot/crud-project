@@ -31,45 +31,13 @@ public class Login extends Application {
         System.out.println("🟢 Application started !");
 
         Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+        Scene scene = new Scene(root);
 
-        window = loginStage;
-        window.setTitle("Login");
-        window.setResizable(false);
-
-        GridPane grid = new GridPane();
-        grid.setAlignment(Pos.CENTER);
-        grid.setVgap(20);
-        grid.setHgap(20);
-        grid.setPadding(new Insets(20));
-
-        Text loginTitle = new Text("C.R.U.D Login");
-        loginTitle.setFont(Font.font("Tahoma", FontWeight.BOLD, 25));
-        grid.add(loginTitle, 0, 0);
-
-        loginStatus = new Text();
-        grid.add(loginStatus, 1, 4);
-
-        Label labelInputUser = new Label("Username");
-        grid.add(labelInputUser, 0, 1);
-
-        inputUser = new TextField();
-        inputUser.setPromptText("Username");
-        grid.add(inputUser, 1, 1);
-
-        Label labelInputPassword = new Label("Password");
-        grid.add(labelInputPassword, 0, 2);
-
-        inputPassword = new PasswordField();
-        inputPassword.setPromptText("Password");
-        grid.add(inputPassword, 1, 2);
-
-        Button loginBtn = new Button("Login");
-        grid.add(loginBtn, 1, 3);
-        loginBtn.setOnAction(e -> login());
-
-        window.setScene(new Scene(grid, 600, 300));
-        window.show();
-        window.centerOnScreen();
+        loginStage.setTitle("CRUD - Login");
+        loginStage.setResizable(false);
+        loginStage.setScene(scene);
+        loginStage.show();
+        loginStage.centerOnScreen();
 
         /* new Thread(() -> {
             try {

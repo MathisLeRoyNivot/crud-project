@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" />
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@Login.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+    <children>
+        <Label stylesheets="@Login.css" text="Login">
+            <font>
+                <Font size="18.0" />
+            </font>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+        </Label>
+        <HBox>
+            <children>
+                <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Username" />
+                <TextField id="UsernameInput" fx:id="UsernameInput" />
+            </children>
+        </HBox>
+      <Label id="UsernameInputError" fx:id="UsernameInputError" textFill="#ae0000">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+        <HBox>
+            <children>
+                <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="100.0" text="Password" />
+                <PasswordField fx:id="PasswordInput" />
+            </children>
+        </HBox>
+      <Label id="PasswordInputError" fx:id="PasswordInputError" textFill="#ae0000" />
+        <HBox alignment="CENTER_RIGHT" spacing="15.0">
+            <children>
+                <Button id="QuitBtn" mnemonicParsing="false" onAction="#quitApplication" text="QUIT" />
+                <Button id="LoginBtn" mnemonicParsing="false" onAction="#login" text="LOGIN" />
+            </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+        </HBox>
+    </children>
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+</VBox>
