@@ -32,7 +32,6 @@ export class ColumnsPage implements OnInit {
   }
 
   deleteRow(id: number) {
-    console.log("zizi");
     this.http.delete('http://localhost:3000/' + this.table + '/' + id).subscribe(
 			(data: any) => {
         window.location.reload();
