@@ -10,6 +10,7 @@ import { TablesPage } from './pages/tables/tables.page';
 import { ColumnsPage } from './pages/columns/columns.page';
 import { CanActivateRouteGuard } from './services/route-guard.service';
 import { AddRowPage } from './pages/add-row/add-row.page';
+import { UpdateRowPage } from './pages/update-row/update-row.page';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AddRowPage } from './pages/add-row/add-row.page';
     LoginPage,
     TablesPage,
     ColumnsPage,
-    AddRowPage
+    AddRowPage,
+    UpdateRowPage
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,8 @@
   </thead>
   <tbody>
     <tr *ngFor="let row of tableData">
-	  <td *ngFor="let column of row | keyvalue">{{column.value}}</td>
+    <td *ngFor="let column of row | keyvalue">{{column.value}}</td>
+    <td (click)="updateRow(row.id)"><i class="eva eva-edit"></i></td>
 	  <td (click)="deleteRow(row.id)"><i class="eva eva-close-circle"></i></td>
     </tr>
   </tbody>

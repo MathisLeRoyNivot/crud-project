@@ -6,6 +6,7 @@ import { ColumnsPage } from './pages/columns/columns.page';
 import { AppComponent } from './app.component';
 import { TablesPage } from './pages/tables/tables.page';
 import { AddRowPage } from './pages/add-row/add-row.page';
+import { UpdateRowPage } from './pages/update-row/update-row.page';
 
 const routes: Routes = [
   {
@@ -25,6 +26,10 @@ const routes: Routes = [
       {
         path: 'add',
         component: AddRowPage
+      },
+      {
+        path: 'update/:id',
+        component: UpdateRowPage
       }
     ]
   },

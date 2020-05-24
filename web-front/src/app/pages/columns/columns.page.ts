@@ -54,4 +54,15 @@ export class ColumnsPage implements OnInit {
     );
   }
 
+  updateRow(id) {
+    this.router.createUrlTree(['./update/' + id], {relativeTo: this.route});
+    this.router.navigate(['./update/' + id], {
+      queryParams: {
+        'data': JSON.stringify(this.tableData[0])
+      },
+      relativeTo: this.route
+    }
+    );
+  }
+
 }
