@@ -1,0 +1,22 @@
+<h1 class="table-title">{{ table }}</h1>
+
+<table>
+  <thead>
+    <td class="row-column" *ngFor="let column of tableData[0] | keyvalue">
+      {{column.key}}
+	</td>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of tableData">
+    <td *ngFor="let column of row | keyvalue">{{column.value}}</td>
+    <td (click)="updateRow(row.id)"><i class="eva eva-edit"></i></td>
+	  <td (click)="deleteRow(row.id)"><i class="eva eva-close-circle"></i></td>
+    </tr>
+  </tbody>
+</table>
+
+<a (click)="goToAdd()">Add Row</a>
+
+<router-outlet></router-outlet>
+
+

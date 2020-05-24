@@ -1,0 +1,16 @@
+.table-title {
+    text-transform: capitalize;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+.table-row {
+    display: flex;
+}
+
+i.eva:hover {
+    cursor: pointer;
+}

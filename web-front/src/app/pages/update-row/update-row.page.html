@@ -1,0 +1,6 @@
+<div class="add-inputs">
+	<form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
+		<input *ngFor="let input of rowData | keyvalue" id={{input.key}} formControlName="{{input.key}}" placeholder={{input.key}} value="{{input.value}}" type="text">
+		<input type="submit" value="SUBMIT">
+	</form>
+</div>

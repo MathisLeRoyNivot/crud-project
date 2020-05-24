@@ -1,0 +1,15 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "P@ssw0rd",
+    "database": "crud_db",
+    "entities": [
+        "dist/product/product.js",
+        "dist/client/client.js",
+        "dist/bill/bill.js",
+        "dist/banking-information/banking-information.js"
+    ],
+    "synchronize": true
+}
