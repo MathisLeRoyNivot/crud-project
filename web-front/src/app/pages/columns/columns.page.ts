@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {ActivatedRoute} from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-columns',
@@ -11,13 +11,14 @@ export class ColumnsPage implements OnInit {
   table: string;
   tableData: Array<any> = [];
 
-  constructor(private http: HttpClient, private route: ActivatedRoute) {}
+  
+
+  constructor(private http: HttpClient, private route: ActivatedRoute, private router: Router) {
+  }
 
   ngOnInit() {
 
     this.table = this.route.snapshot.paramMap.get('table');
-    console.log(this.table);
-
     this.http.get('http://localhost:3000/' + this.table).subscribe(
 			(data: Array<JSON>) => {
 				data.forEach(row => {
@@ -39,6 +40,17 @@ export class ColumnsPage implements OnInit {
 			(error) => {
 				console.log(error);
 			}
+    );
+  }
+
+  goToAdd() {
+    this.router.createUrlTree(['./add'], {relativeTo: this.route});
+    this.router.navigate(['./add'], {
+      queryParams: {
+        'data': JSON.stringify(this.tableData[0])
+      },
+      relativeTo: this.route
+    }
     );
   }
 

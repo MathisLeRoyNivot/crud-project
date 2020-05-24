@@ -9,13 +9,15 @@ import { LoginPage } from './pages/login/login.page';
 import { TablesPage } from './pages/tables/tables.page';
 import { ColumnsPage } from './pages/columns/columns.page';
 import { CanActivateRouteGuard } from './services/route-guard.service';
+import { AddRowPage } from './pages/add-row/add-row.page';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPage,
     TablesPage,
-    ColumnsPage
+    ColumnsPage,
+    AddRowPage
   ],
   imports: [
     BrowserModule,

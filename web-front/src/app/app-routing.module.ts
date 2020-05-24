@@ -5,6 +5,7 @@ import { CanActivateRouteGuard } from './services/route-guard.service';
 import { ColumnsPage } from './pages/columns/columns.page';
 import { AppComponent } from './app.component';
 import { TablesPage } from './pages/tables/tables.page';
+import { AddRowPage } from './pages/add-row/add-row.page';
 
 const routes: Routes = [
   {
@@ -19,12 +20,18 @@ const routes: Routes = [
   {
     path: 'table/:table',
     // canActivate: [CanActivateRouteGuard],
-    component: ColumnsPage
+    component: ColumnsPage,
+    children : [
+      {
+        path: 'add',
+        component: AddRowPage
+      }
+    ]
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { paramsInheritanceStrategy: 'always'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
