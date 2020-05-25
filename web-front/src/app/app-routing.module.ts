@@ -11,8 +11,8 @@ import { UpdateRowPage } from './pages/update-row/update-row.page';
 const routes: Routes = [
   {
     path: '',
-    canActivate: [CanActivateRouteGuard],
-    component: AppComponent
+    // canActivate: [CanActivateRouteGuard],
+    component: TablesPage
   },
   {
     path: 'login',

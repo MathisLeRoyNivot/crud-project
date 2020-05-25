@@ -8,7 +8,6 @@ export class BankingInformation {
     id: number;
 
     @Column({name: 'client_id'})
-    @OneToMany(type => Client, client => client.id)
     clientId: number;
 
     @Column({name: 'card_number'})
